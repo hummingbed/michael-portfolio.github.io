@@ -1,0 +1,92 @@
+body {
+  background: #0b0324;
+  font-family: "Sofia", sans-serif;
+}
+.navbar-expand-lg{
+  /* border: 5px solid white;
+  height: 20vh; */
+  background: #0b0324;
+}
+
+.navigation-section-component {
+  font-size: .9rem;
+  transition: 0.3s;
+  /* border: green 3px solid; */
+}
+
+.navigation-section-component a:hover {
+  background-color: rgb(106, 135, 251);
+  border-radius: 5%;
+  color: red;
+}
+
+.home-section-component {
+  /* border: 3px solid red; */
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  color: rgb(106, 135, 251);
+  text-transform: capitalize;
+  letter-spacing: .1rem;
+  /* line-height: 3rem; */
+}
+.home-section-img{
+  background-color: rgb(106, 135, 251);
+  margin-right: 7rem;
+}
+
+.home-section-component img {
+  width: 300px;
+  height: 300px;
+}
+
+.home-section-component .home-section-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-section-component .home-section-icons a {
+  text-decoration: none;
+  color: rgb(106, 135, 251);
+}
+
+.about-me{
+  height: 40vh;
+  /* border: 3px solid red; */
+  /* position: relative;   */
+}
+.about-me .row{
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+@media screen and (max-width:577px){
+  .about-me {
+    height: 55vh;
+  }
+}
+
+@media screen and (max-width:767px){
+  .home-section-component .home-section-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width:991px){
+  .home-section-img{
+    display: none;
+  }
+}
+
